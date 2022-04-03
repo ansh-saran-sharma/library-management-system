@@ -1,6 +1,6 @@
 # Imports
 from fastapi import FastAPI
-from routers import book, user, authentication
+from routers import book, user
 from fastapi.middleware.cors import CORSMiddleware
 
 # Instance of FastAPI
@@ -25,8 +25,6 @@ app.add_middleware(
 app.include_router(book.router)
 # Grabbing "router" Object From "user.py"
 app.include_router(user.router)
-# Grabbing "router" Object From "authetication.py"
-#app.include_router(authentication.router)
 
 # Route Path
 @app.get("/")
