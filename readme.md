@@ -1,1 +1,1 @@
-A LLibrary Management System using FastAPI
+A Library Management System using FastAPI
