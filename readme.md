@@ -66,7 +66,7 @@ request body :
     "price":"",
     "publisher":"",
     "page_count":"",
-    "debut_year":"",
+    "debut_year":""
 }
 headers : 
     key = Authentication
